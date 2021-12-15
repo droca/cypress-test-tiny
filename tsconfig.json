@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "lib": ["es5", "dom", "es2017"],
+    "types": ["cypress"],
+    "baseUrl": "./node_modules",
+    "typeRoots": ["./cypress/support"]
+  },
+  "include": ["**/*.ts", "cypress/plugins/index.js"],
+  "exclude": ["./out"]
+}
